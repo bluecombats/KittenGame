@@ -230,7 +230,7 @@ function KE_calcResourcePerTick_NCW(resName, season, weather){
     var realWeatherMod,realWeatherModInverse,mockSeasonWeatherMod;
     if(resName == "catnip"){
         //Get data for the current weather
-        realWeatherMod = gamePage.calendar.getWeatherMod();
+        realWeatherMod = gamePage.calendar.getWeatherMod;
         //invert it
         realWeatherModInverse = 0-realWeatherMod;
         //get the effective season+weather
